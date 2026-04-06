@@ -1,0 +1,66 @@
+
+> openmind-ai@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.3
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 3.4s
+ ○ Compiling / ...
+ ✓ Compiled /login in 35.5s (1386 modules)
+ GET /login 200 in 13285ms
+ GET / 200 in 36234ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 3.1s (952 modules)
+ GET /api/auth/session 200 in 5195ms
+ GET /api/auth/session 200 in 62ms
+ ○ Compiling /api/conversations ...
+ ✓ Compiled /api/conversations in 995ms (998 modules)
+ ✓ Compiled (1006 modules)
+ GET /api/models 200 in 1486ms
+ POST /api/conversations 201 in 2689ms
+ POST /api/auth/register 201 in 2910ms
+ ○ Compiling /chat ...
+ ✓ Compiled /chat in 10.5s (2882 modules)
+ GET /chat 200 in 10855ms
+ ✓ Compiled in 371ms (1550 modules)
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 517ms (1556 modules)
+ ✓ Compiled (1898 modules)
+ POST /api/chat 503 in 8580ms
+ GET /api/auth/session 200 in 8797ms
+ GET /chat?_rsc=1hql4 200 in 30ms
+ ✓ Compiled /api/models in 344ms (1900 modules)
+ ✓ Compiled (1902 modules)
+ GET /api/models 200 in 861ms
+ GET /api/models 200 in 900ms
+ GET /api/models 200 in 973ms
+ GET /api/models 200 in 1004ms
+ GET /api/conversations 200 in 1320ms
+ GET /api/conversations 200 in 1329ms
+ POST /api/conversations 201 in 485ms
+ ○ Compiling /chat/[chatId] ...
+ ✓ Compiled /chat/[chatId] in 3s (3165 modules)
+ POST /api/chat 503 in 3419ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 4.3s (3388 modules)
+ GET /chat/cmnjxsemw0004h8ef1krv41lk 500 in 902ms
+ ✓ Compiled in 1911ms (3043 modules)
+ ✓ Compiled in 403ms (3036 modules)
+ ✓ Compiled /chat/[chatId] in 307ms (1598 modules)
+ GET /chat/cmnjxsemw0004h8ef1krv41lk 500 in 2295ms
+ GET /chat/cmnjxsemw0004h8ef1krv41lk 500 in 24ms
+ GET / 500 in 21ms
+ GET / 500 in 22ms
+ GET / 500 in 20ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 942ms (3046 modules)
+ GET /_next/static/webpack/db18d0331d7bab28.webpack.hot-update.json 404 in 784ms
+ GET / 200 in 85ms
+ GET /_next/static/css/app/layout.css?v=1775283532949 404 in 52ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 29ms
+ GET /_next/static/chunks/main-app.js?v=1775283532949 404 in 30ms
+ GET /_next/static/chunks/app/page.js 404 in 29ms
+ GET /_next/static/chunks/app/layout.js 404 in 51ms
