@@ -9,7 +9,7 @@
     "predev": "rimraf .next",
     "dev": "next dev",
     "prebuild": "rimraf .next",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
     "db:init": "node scripts/init-db.mjs",
